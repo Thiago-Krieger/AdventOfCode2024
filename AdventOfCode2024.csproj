@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <LangVersion>latestmajor</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="Data\Inputs\Day1.Input"/>
+        <None Remove="Data\Inputs\Day2.Input"/>
+        <None Remove="Data\Inputs\Day3.Input"/>
+        <None Remove="Data\Inputs\Day4.Input"/>
+        <None Remove="Data\Inputs\Day5.Input"/>
+        <None Remove="Data\Day1.Example"/>
+        <None Remove="Data\Day2.Example"/>
+        <None Remove="Data\Day3.Example"/>
+        <None Remove="Data\Day4.Example"/>
+        <None Remove="Data\Day5.Example"/>
+        <Content Include="Data\Day1.Example">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Day2.Example">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Day3.Example">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Day4.Example">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Day5.Example">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Inputs\Day1.Input">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Inputs\Day2.Input">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Inputs\Day3.Input">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Inputs\Day4.Input">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Include="Data\Inputs\Day5.Input">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+</Project>
